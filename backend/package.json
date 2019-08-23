@@ -2,9 +2,10 @@
   "name": "musixmatch",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "server.js"
   },
   "author": "",
   "license": "ISC",
@@ -12,8 +13,8 @@
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
     "@babel/register": "^7.5.5",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "node-fetch": "^2.6.0",
-    "unirest": "^0.6.0"
+    "node-fetch": "^2.6.0"
   }
 }
