@@ -1,5 +1,4 @@
 import React from 'react'
-// import { getPopularTracks } from '../utils/api'
 
 export default class PopularSongs extends React.Component {
     state = {
