@@ -10,11 +10,7 @@ app.use(cors())
 
 app.get('/getPopularTracks', function (req, res) {
     /** This is just an example */
-    getPopularTracks({
-        country: 'us',
-        page_size: '5',
-        page: '1'
-    }).then((data) => {
+    getPopularTracks(req.query).then((data) => {
         res.send(data)
     })
     
